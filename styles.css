@@ -1,0 +1,34 @@
+@import url(/styles.css);
+
+:root{
+  line-height: 2rem;
+ 
+}
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.home-img{
+  width: 100%;
+}
+.quizz-pg{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navBar{
+  background:var(--background-color) ;
+}
+.btn-primary.btn-outlined.home-btn{
+  font-size: 2.5rem;
+  position: absolute;
+  right: 3rem;
+  bottom: 20rem;
+}

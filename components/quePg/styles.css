@@ -1,8 +1,7 @@
 @import url(/styles.css);
 
-:root{
+:root {
   line-height: 2rem;
- 
 }
 .page-content {
   display: flex;
@@ -13,7 +12,7 @@
   max-height: fit-content;
   justify-content: space-evenly;
 }
-.quizz-pg{
+.quizz-pg {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -21,23 +20,23 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.card-img-container{
+.card-img-container {
   background: var(--primary-color);
 }
 
-.quizz-pg-title{
+.quizz-pg-title {
   padding: 1.5rem;
 }
-.homeFooter{
+.homeFooter {
   width: 100%;
 }
-.tile-content:hover{
+.tile-content:hover {
   transform: scale(1.1);
 }
-.navBar{
-  background:var(--background-color) ;
+.navBar {
+  background: var(--background-color);
 }
-.modal-container{
+.box-container {
   background: var(--background-color);
   padding: 1.5rem;
   display: block;
@@ -45,29 +44,29 @@
   width: 50%;
   padding: 2rem;
 }
-.modal-title{
+.box-title {
   display: flex;
   justify-content: space-between;
 }
-.ques-container{
-  text-align: center
-}
-.ans-options{
+.ques-container {
   text-align: center;
 }
-.ans{
+.ans-options {
+  text-align: center;
+}
+.ans {
   border: 1px solid var(--primary-color);
   margin: 1rem;
   border-radius: 1rem;
 }
-.ans:hover{
+.ans:hover {
   transform: scale(0.98);
 }
-.rightAns{
+.rightAns {
   background: green;
   color: var(--background-color);
 }
-.wrongAns{
+.wrongAns {
   background: rgb(226, 30, 30);
   color: var(--background-color);
 }

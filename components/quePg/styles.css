@@ -63,3 +63,11 @@
 .ans:hover{
   transform: scale(0.98);
 }
+.rightAns{
+  background: green;
+  color: var(--background-color);
+}
+.wrongAns{
+  background: rgb(226, 30, 30);
+  color: var(--background-color);
+}

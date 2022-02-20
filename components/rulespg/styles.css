@@ -44,30 +44,11 @@
   box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.3),
   -3px 0px 7px rgba(0, 0, 0, 0.3);
 }
-.box-title {
-  display: flex;
-  justify-content: space-between;
-}
+
 .ques-container {
   text-align: center;
 }
 .ans-options {
   text-align: center;
 }
-.ans {
-  border: 1px solid var(--primary-color);
-  margin: 1rem;
-  border-radius: 1rem;
-  cursor: pointer;
-}
-.ans:hover {
-  transform: scale(0.98);
-}
-.rightAns {
-  background: green;
-  color: var(--background-color);
-}
-.wrongAns {
-  background: rgb(226, 30, 30);
-  color: var(--background-color);
-}
+

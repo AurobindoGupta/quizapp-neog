@@ -1,0 +1,66 @@
+@import url(/styles.css);
+
+:root {
+  line-height: 2rem;
+}
+.page-content {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  max-height: fit-content;
+}
+.quizz-pg {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  width: 100%;
+}
+.card-img-container {
+  background: var(--primary-color);
+}
+
+.quizz-pg-title {
+  padding: 1.5rem;
+}
+.homeFooter {
+  width: 100%;
+}
+.tile-content:hover {
+  transform: scale(1.1);
+}
+.navBar {
+  background: var(--background-color);
+}
+.box-container {
+  background: var(--background-color);
+  width: 40%;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.3rem;
+  pointer-events: none;
+}
+.box-title {
+  display: flex;
+  justify-content: space-between;
+}
+.ques-container {
+  text-align: center;
+}
+.ans-options {
+  text-align: center;
+}
+.ans {
+  border: 1px solid var(--primary-color);
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.ans:hover {
+  transform: scale(0.98);
+}
+.rightAns {
+  background: green;
+  color: var(--background-color);
+}
+.wrongAns {
+  background: rgb(226, 30, 30);
+  color: var(--background-color);
+}

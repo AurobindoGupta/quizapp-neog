@@ -57,10 +57,10 @@
   transform: scale(0.98);
 }
 .rightAns {
-  background: green;
+  background: var(--stdGreen-color);
   color: var(--background-color);
 }
 .wrongAns {
-  background: rgb(226, 30, 30);
+  background: var(--stdRed-color);
   color: var(--background-color);
 }

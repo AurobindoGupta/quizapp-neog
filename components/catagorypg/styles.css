@@ -36,3 +36,6 @@
 .navBar{
   background:var(--background-color) ;
 }
+.card{
+  cursor: pointer;
+}

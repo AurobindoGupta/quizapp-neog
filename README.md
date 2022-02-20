@@ -1,5 +1,5 @@
 # quizapp-neog
-* [Home Page](https://auro-ecom.netlify.app/components/signuppg/) 
+* [Home Page](https://auro-quizz-neog.netlify.app/index.html) 
 * [Quizzes by Category](https://auro-quizz-neog.netlify.app/components/catagorypg/index.html)
 * [Rules Page for while attempting Quiz](https://auro-quizz-neog.netlify.app/components/rulespg/index.html)
 * MCQ based Quiz Question Page

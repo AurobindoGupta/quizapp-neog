@@ -6,6 +6,15 @@
   --stdGreen-color:green;
  
 }
+.heroContainer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.heroTitle{
+  cursor: pointer;
+}
+
 .page-content {
   display: flex;
   flex-direction: column;

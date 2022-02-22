@@ -7,3 +7,4 @@
   - [screen2](https://auro-quizz-neog.netlify.app/components/quepg/rightans)
   - [screen3](https://auro-quizz-neog.netlify.app/components/quepg/wrongans)
 * [Result Page with Answers & Score](https://auro-quizz-neog.netlify.app/components/resultpg/)
+![Animation2](https://user-images.githubusercontent.com/78882138/155187690-d619f7f0-0c67-4c38-b38d-6c8616baf544.gif)

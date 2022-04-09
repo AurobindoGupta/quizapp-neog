@@ -71,3 +71,10 @@
   background:var(--stdRed-color);
   color: var(--background-color);
 }
+.quizz-pg-title{
+  display: flex;
+  align-items: center;
+}
+.results-btn{
+  height: fit-content;
+}
